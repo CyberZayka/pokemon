@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Emboar",
+        "generation": "5",
+        "type": ["Fighting", "Fire"],
+        "colors": ["#9D4242", "#FB522D"],
+        "avatar": "./images/emboar.png",
+        "id": "1"
+    },
+    {
+        "name": "Darkrai",
+        "generation": "4",
+        "type": ["Dark"],
+        "colors": ["#5C5C5C"],
+        "avatar":"./images/darkrai.png",
+        "id": "2"
+    },
+    {
+        "name": "Diggersby",
+        "generation": "5",
+        "type": ["Normal", "Ground"],
+        "colors": ["#AAAAAA", "#976D63"],
+        "avatar":"./images/emboar.png",
+        "id": "3"
+    }
+]

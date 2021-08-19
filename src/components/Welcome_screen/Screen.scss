@@ -1,0 +1,27 @@
+.screen {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 820px;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__text {
+        font-size: 20px;
+        font-style: normal;
+        line-height: 26px;
+    }
+    &__link {
+        text-align: end;
+        margin-top: 75px;
+    }
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 50px;
+}

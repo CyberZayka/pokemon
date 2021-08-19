@@ -1,2 +1,1 @@
-# pokemon
-This is test task Faster Than Light company
+This is a test task for Faster Than Light company

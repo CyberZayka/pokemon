@@ -1,0 +1,26 @@
+@mixin titleProp {
+    color: #474747;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.primary-title {
+    @include titleProp();
+    $fs-title: 48px;
+    font-size: $fs-title;
+}
+
+.secondary-title {
+    @include titleProp();
+    $fs-title: 36px;
+    font-size: $fs-title;
+    // border-bottom: 3px solid #474747;
+    margin-top: 120px;
+}
+
+.hr {
+    width: 200px;
+    height: 3px;
+    background-color: #474747;
+    margin: 0;
+}

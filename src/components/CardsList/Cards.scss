@@ -1,0 +1,15 @@
+.cards-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 75px;
+}
+
+.cards-list > div {
+    justify-self: center;
+    align-self: end;
+    padding: 20px 24px;
+}
+
+.cards-list > div:hover {
+    box-shadow: 2px 1px 12px rgba(123, 97, 255, 0.5);
+}
